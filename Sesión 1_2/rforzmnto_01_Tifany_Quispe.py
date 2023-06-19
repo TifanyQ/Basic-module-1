@@ -1,4 +1,4 @@
-"Reforzamineto01 - Tipos de datos"
+"Reforzamiento01 - Tipos de datos"
 
 "1. El valor de ‘¡HI TuNombre!’ imprimirlo por pantalla, el texto "
 "debe ser un string y deberás guardarlo en una variable llamada mi_saludo. "
