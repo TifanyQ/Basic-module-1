@@ -16,7 +16,7 @@ tupla=(5,6,8,9,12)
 conjunto=set([1,3,5,7,1,5,"Bienvenidos"])
 diccionario={'Nombre':"Lucia",'Apellido':"Crisolo",'Edad':5}
 
-print(conjunto)
+print(diccionario)
 
 "Devolución de datos"
 
