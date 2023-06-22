@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66f74624-3eb7-4f42-b8e2-a1c8acb8fc98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Basic-module-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sesión 3/Listas.append-insert-clear.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sesión 3/Listas.pop-remove.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sesión 3/Listas.reverse-sort-copy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sesión 3/delete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +81,7 @@
       <workItem from="1686710611043" duration="2010000" />
       <workItem from="1686874792665" duration="8046000" />
       <workItem from="1687273822174" duration="2672000" />
-      <workItem from="1687469444228" duration="6336000" />
+      <workItem from="1687469444228" duration="7350000" />
     </task>
     <servers />
   </component>
