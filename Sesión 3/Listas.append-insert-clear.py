@@ -2,7 +2,7 @@
 
 "Agregar datos a una lista"
 
-paises=[]
+paises=["Mexico"]
 
 print("La cantidad de la lista es {}".format(len(paises)))
 
