@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66f74624-3eb7-4f42-b8e2-a1c8acb8fc98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Sesión 4/Asignación múltiple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sesión 4/Condicional.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sesión 4/Listas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sesión 4/elif.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic-module-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen1/Ejercicio 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Examen1/Ejercicio 1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen1/Ejercicio 10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen1/Ejercicio 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Examen1/Ejercicio 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen1/Ejercicio 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Examen1/Ejercicio 3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen1/Ejercicio 4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen1/Ejercicio 5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen1/Ejercicio 6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen1/Ejercicio 7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen1/Ejercicio 8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen1/Ejercicio 9.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +96,7 @@
       <workItem from="1687477262350" duration="10000" />
       <workItem from="1687477380039" duration="327000" />
       <workItem from="1687477712106" duration="650000" />
-      <workItem from="1687478618845" duration="3309000" />
+      <workItem from="1687478618845" duration="9819000" />
     </task>
     <servers />
   </component>
@@ -101,16 +105,23 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Basic_module_1$Listas_.coverage" NAME="Listas. Coverage Results" MODIFIED="1687471463032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 3" />
-    <SUITE FILE_PATH="coverage/Basic_module_1$Listas.coverage" NAME="Listas Coverage Results" MODIFIED="1687470124258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 3" />
+    <SUITE FILE_PATH="coverage/Basic_module_1$Condicional.coverage" NAME="Condicional Coverage Results" MODIFIED="1687483226067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 4" />
+    <SUITE FILE_PATH="coverage/Basic_module_1$Listas_reverse_sort_copy.coverage" NAME="Listas.reverse-sort-copy Coverage Results" MODIFIED="1687488164357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 3" />
+    <SUITE FILE_PATH="coverage/Basic_module_1$Ejercicio_5.coverage" NAME="Ejercicio 5 Coverage Results" MODIFIED="1687486790608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examen1" />
+    <SUITE FILE_PATH="coverage/Basic_module_1$Ejercicio_2.coverage" NAME="Ejercicio 2 Coverage Results" MODIFIED="1687490573807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examen1" />
+    <SUITE FILE_PATH="coverage/Basic_module_1$Ejercicio_10.coverage" NAME="Ejercicio 10 Coverage Results" MODIFIED="1687484602204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examen1" />
     <SUITE FILE_PATH="coverage/Basic_module_1$Asignación_múltiple.coverage" NAME="Asignación múltiple Coverage Results" MODIFIED="1687480069705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 4" />
     <SUITE FILE_PATH="coverage/Basic_module_1$d.coverage" NAME="d Coverage Results" MODIFIED="1687470494109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 3" />
-    <SUITE FILE_PATH="coverage/Basic_module_1$Listas_reverse_sort.coverage" NAME="Listas.reverse-sort Coverage Results" MODIFIED="1687471862399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 3" />
     <SUITE FILE_PATH="coverage/Basic_Module$Clase2.coverage" NAME="Clase2 Coverage Results" MODIFIED="1686879009081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 1_2" />
     <SUITE FILE_PATH="coverage/Basic_Module$Tarea.coverage" NAME="Tarea Coverage Results" MODIFIED="1686879052354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 1_2" />
+    <SUITE FILE_PATH="coverage/Basic_module_1$elif.coverage" NAME="elif Coverage Results" MODIFIED="1687482358380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 4" />
+    <SUITE FILE_PATH="coverage/Basic_module_1$Ejercicio_1.coverage" NAME="Ejercicio 1 Coverage Results" MODIFIED="1687489645841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examen1" />
+    <SUITE FILE_PATH="coverage/Basic_module_1$Listas.coverage" NAME="Listas Coverage Results" MODIFIED="1687470124258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 3" />
+    <SUITE FILE_PATH="coverage/Basic_module_1$Listas_reverse_sort.coverage" NAME="Listas.reverse-sort Coverage Results" MODIFIED="1687471862399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 3" />
     <SUITE FILE_PATH="coverage/Basic_Module$String.coverage" NAME="String Coverage Results" MODIFIED="1686714396511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 1" />
     <SUITE FILE_PATH="coverage/Basic_Module$Virtual_Assistant.coverage" NAME="Virtual Assistant Coverage Results" MODIFIED="1686875670036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 1_2" />
-    <SUITE FILE_PATH="coverage/Basic_module_1$elif.coverage" NAME="elif Coverage Results" MODIFIED="1687482358380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 4" />
+    <SUITE FILE_PATH="coverage/Basic_module_1$Ejercicio_3.coverage" NAME="Ejercicio 3 Coverage Results" MODIFIED="1687490189242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examen1" />
     <SUITE FILE_PATH="coverage/Basic_Module$Clase1.coverage" NAME="Clase1 Coverage Results" MODIFIED="1686875415771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 1_2" />
-    <SUITE FILE_PATH="coverage/Basic_module_1$delete.coverage" NAME="delete Coverage Results" MODIFIED="1687474670058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 3" />
+    <SUITE FILE_PATH="coverage/Basic_module_1$delete.coverage" NAME="delete Coverage Results" MODIFIED="1687488925153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sesión 3" />
   </component>
 </project>
