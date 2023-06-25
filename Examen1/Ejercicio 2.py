@@ -1,8 +1,19 @@
 "Python - Práctica 1"
 
+<<<<<<< HEAD
 import random
 
 numero1 = random.randint(0,8)
+=======
+"2.Usando el concepto y funciones de listas, realizar un programa con"
+"las siguiente características (3 ptos):"
+
+import random
+
+lista = []
+
+numero1 = random.randint(0,9)
+>>>>>>> origin/master
 numero2 = random.randint(0,9)
 numero3 = random.randint(0,9)
 numero4 = random.randint(0,9)
@@ -13,8 +24,11 @@ numero8 = random.randint(0,9)
 numero9 = random.randint(0,9)
 numero10 = random.randint(0,9)
 
+<<<<<<< HEAD
 lista = []
 
+=======
+>>>>>>> origin/master
 lista.append(numero1)
 lista.append(numero2)
 lista.append(numero3)
@@ -28,7 +42,10 @@ lista.append(numero10)
 
 print(lista)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 lista2=[]
 
 for i in range(0,len(lista)):
@@ -54,4 +71,8 @@ print(listasuma)
 
 listasuma.reverse()
 
+<<<<<<< HEAD
 print(listasuma)
+=======
+print(listasuma)
+>>>>>>> origin/master
