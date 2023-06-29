@@ -1,5 +1,7 @@
 import math
 import statistics
+from scipy.constants import hbar, m_e, pi   #hbar en J.s
+
 
 # Ingreso de datos (ángulos)
 onda = float(input("Ingresa la longitud de onda: "))
@@ -38,3 +40,9 @@ promedio = statistics.mean(listadea)
 desviacion_estandar = statistics.stdev(listadea)
 print("El valor promedio de a es: {}".format(promedio))
 print("La desviación estándar es: {}".format(desviacion_estandar))
+
+#Energía de Fermi
+conversion_factor = 1.602177e-19                                                                 #Joule a eV
+Ef = hbar ** 2 * (3 * pi ** 2) ** (2/3) * 12 ** (2/3) / (2 * m_e * promedio ** 2)                #Joule
+Efermi_eV=Ef/conversion_factor                                                                   #eV
+print("La energía de fermi en eV es: {}".format(Efermi_eV))

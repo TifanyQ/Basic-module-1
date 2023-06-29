@@ -31,4 +31,7 @@ listanueva.append(str("58"))
 listanueva.append(str("84"))
 listanueva.append(str("3.4"))
 
-#Suma de las dos listas
+#Suma de las dos listas (concatenación) primeros valores
+for i in range(1,5):
+    listaactualizada=str(lista[i])+ " " + str(listanueva[i])
+    print(listaactualizada)
