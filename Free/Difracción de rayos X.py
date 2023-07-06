@@ -1,10 +1,10 @@
 import math
 import statistics
-from scipy.constants import hbar, m_e, pi   #hbar en J.s
-
+from scipy.constants import hbar, m_e, pi
+conversion_factor = 1.602177e-19                                        #eV
 
 # Ingreso de datos (ángulos)
-onda = float(input("Ingresa la longitud de onda: "))
+onda = float(input("Ingresa la longitud de onda (Angstrom): "))
 lista = [float(input("Ingresa los 8 ángulos: ")) for _ in range(1, 9)]
 
 # Cálculos intermedios
@@ -14,7 +14,7 @@ distinterplanar = [onda / (2 * x) for x in listaseno]
 listaseno2 = [x**2 for x in listaseno]
 listadiv = [x / listaseno2[0] for x in listaseno2]
 
-# Resultados parciales
+#Resultados parciales
 print("Ángulo (theta): {}".format(listadostheta))
 print("Seno del ángulo: {}".format(listaseno))
 print("Seno^2 del ángulo: {}".format(listaseno2))
@@ -29,9 +29,9 @@ for n in range(1, 5):
     if abs(round(m) - m) < 0.1:
         primernumero = n
         listasumatoria.extend([primernumero] + [round(primernumero * x) for x in listadiv[1:]])
-        listadea = [math.sqrt((onda ** 2 * x) / (4 * y)) for x, y in zip(listasumatoria[1:], listaseno2[1:])]
+        listadea = [math.sqrt((onda ** 2 * x) / (4 * y)) for x, y in zip(listasumatoria[0:8], listaseno2[0:8])]
 
-# Resultados finales
+#Resultados_finales
 print("Los valores sigma son: {}".format(listasumatoria))
 print("Constante de red: {}".format(listadea))
 
@@ -41,8 +41,12 @@ desviacion_estandar = statistics.stdev(listadea)
 print("El valor promedio de a es: {}".format(promedio))
 print("La desviación estándar es: {}".format(desviacion_estandar))
 
-#Energía de Fermi
-conversion_factor = 1.602177e-19                                                                 #Joule a eV
-Ef = hbar ** 2 * (3 * pi ** 2) ** (2/3) * 12 ** (2/3) / (2 * m_e * promedio ** 2)                #Joule
-Efermi_eV=Ef/conversion_factor                                                                   #eV
-print("La energía de fermi en eV es: {}".format(Efermi_eV))
+#Calculo de la Energia de Fermi (eV)
+
+n = (12 / promedio ** 3)                                            #Densidad numérica (concentración de electrones)_ [cm^{-1}]
+
+Ef = hbar ** 2 * (3 * pi ** 2) ** (2 / 3) * n ** (2 / 3) / (2 * m_e)
+Efermi = Ef / conversion_factor * 10 ** 4                           #conversión de J a eV y de cm a m  [eV]
+
+print("La densidad electrónica (cm^-1) es: {}".format(n))
+print("La energía de Fermi (eV) es: {}".format(Efermi))

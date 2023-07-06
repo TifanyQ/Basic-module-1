@@ -4,4 +4,5 @@
 cadena= "Python para la predicción de fraude"
 
 apellido = cadena.split()[-1]
-print(apellido)
+print(cadena.split())
+
