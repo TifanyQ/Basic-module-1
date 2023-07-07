@@ -6,7 +6,7 @@ class Persona:
         self.edad = None
 
     def ingresar_nombre(self):
-        nombre = int(input("Ingrese su nombre: "))
+        nombre = (input("Ingrese su nombre: "))
         self.nombre = nombre
 
     def ingresar_edad(self):

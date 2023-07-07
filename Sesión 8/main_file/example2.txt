@@ -1,0 +1,4 @@
+Caracteristicas en Python
+Lenguaje multiplataforme
+Basado en POO
+pYtHoN ES UN lenguage vacano
