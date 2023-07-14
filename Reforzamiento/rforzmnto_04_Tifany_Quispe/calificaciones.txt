@@ -1,0 +1,5 @@
+Carla tiene de promedio: 19.0
+Sofia tiene de promedio: 18.0
+Rodrigo tiene de promedio: 11.5
+Sara tiene de promedio: 11.0
+Elder tiene de promedio: 16.5
